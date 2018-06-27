@@ -1,0 +1,82 @@
+/* CSS Grid */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: minmax(35px, auto)
+}
+/* Container */
+
+.container--custom {
+    margin: 0 auto;
+}
+/* Small devices (portrait phones, 320px to 575px) */
+
+@media (max-width: 575.98px) {
+    .container--custom {
+        max-width: 575.98px;
+        margin: 0 2rem;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container--custom {
+        max-width: 767.98px;
+        margin: 0 2rem;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container--custom {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container--custom {
+        max-width: 992px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .container--custom {
+        max-width: 1000px;
+    }
+}
+/* /CSS Grid */
+
+/* Media Queries */
+
+/* Small devices (portrait phones, 320px to 575px) */
+@media (max-width: 575.98px) {
+    /* Content here */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Content here */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Content here */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Content here */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Content here */
+}
+/* /Media Queries */
